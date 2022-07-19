@@ -59,7 +59,7 @@ img{
 /* site-header */
 .site-header {
     padding-top: 54px;
-    padding-bottom: 44px;
+    padding-bottom:51px;
 }
 .site-header__wrapper{
     display: flex;
@@ -202,7 +202,8 @@ img{
     margin-bottom: 36px;
 }
 .site-main__link {
-    padding: 17px 36px 17px 32px;
+    display: inline-block;
+    padding: 17px 32px 17px 32px;
     border: 1px solid var(--link-color);
     text-decoration: none;
     font-weight: 400;
@@ -304,6 +305,82 @@ transition:0.3s color ease;
 .socials__link:hover{
     color: var(--green-color);
 }
+
+/* Portfolio */
+
+/* Portfolio-site-main */
+.portfolio {
+    padding-bottom: 0;
+    padding-top: 35px;
+}
+.portfolio__wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 38px;
+}
+.portfolio__list{
+    margin: 0;
+padding: 0;
+list-style: none;
+}
+.portfolio__item:nth-child(even){
+    flex-direction: row-reverse;
+}
+.portfolio__item{
+    display: flex;
+    margin-bottom: 75px;
+}
+.portfolio__item:nth-child(2n) .portfolio__project {
+margin-left: 125px;
+}
+.portfolio__item:nth-child(2n+1) .portfolio__project {
+    margin-right: 125px;
+    }
+.portfolio__project {
+    object-fit: contain;
+}
+.portfolio__content {
+    max-width: 350px;
+    width: 100%;
+    
+}
+.portfolio-top__line {
+    margin-bottom: 90px;
+    background: var(--link-color);
+opacity: 0.15;
+}
+.portfolio__theme {
+    margin: 0;
+    margin-bottom: 28px;
+    font-family: 'Ibarra Real Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 42px;
+letter-spacing: -0.35px;
+color:var(--link-color);
+}
+.portfolio__text {
+    margin: 0;
+    margin-bottom: 22px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+color: var(--link-color);
+opacity: 0.8;
+}
+.portfolio-bottom__line {
+    margin-top: 103px;
+    margin-bottom: 90px;
+    background: var(--link-color);
+opacity: 0.15;
+}
+.portfolio__cta{
+    margin-bottom: 50px;
+}
+
 /*for retina*/
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
