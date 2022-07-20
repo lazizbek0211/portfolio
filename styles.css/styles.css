@@ -140,15 +140,15 @@ img{
     text-decoration: none;
 }
 .avatar{
-   padding: 17px 36px;
-   background-color: #203A4C;
-   font-weight: 400;
-   font-size: 12px;
-   line-height: 14px;
-   text-align: center;
-   letter-spacing: 2px;
-   text-transform: uppercase;
-   color: #fff; 
+    padding: 17px 36px;
+    background-color: #203A4C;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff; 
 }
 .to-bottom{
     width: 48px;
@@ -275,13 +275,13 @@ img{
 }
 .link {
     text-decoration: none;
-font-weight: 400;
-font-size: 12px;
-line-height: 14px;
-letter-spacing: 2px;
-text-transform: uppercase;
-color: #fff;
-transition:0.3s color ease;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    transition:0.3s color ease;
 }
 .link:hover{
     color: var(--green-color);
@@ -320,8 +320,8 @@ transition:0.3s color ease;
 }
 .portfolio__list{
     margin: 0;
-padding: 0;
-list-style: none;
+    padding: 0;
+    list-style: none;
 }
 .portfolio__item:nth-child(even){
     flex-direction: row-reverse;
@@ -331,11 +331,11 @@ list-style: none;
     margin-bottom: 75px;
 }
 .portfolio__item:nth-child(2n) .portfolio__project {
-margin-left: 125px;
+    margin-left: 125px;
 }
 .portfolio__item:nth-child(2n+1) .portfolio__project {
     margin-right: 125px;
-    }
+}
 .portfolio__project {
     object-fit: contain;
 }
@@ -347,18 +347,18 @@ margin-left: 125px;
 .portfolio-top__line {
     margin-bottom: 90px;
     background: var(--link-color);
-opacity: 0.15;
+    opacity: 0.15;
 }
 .portfolio__theme {
     margin: 0;
     margin-bottom: 28px;
     font-family: 'Ibarra Real Nova';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 42px;
-letter-spacing: -0.35px;
-color:var(--link-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.35px;
+    color:var(--link-color);
 }
 .portfolio__text {
     margin: 0;
@@ -368,17 +368,208 @@ color:var(--link-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-color: var(--link-color);
-opacity: 0.8;
+    color: var(--link-color);
+    opacity: 0.8;
 }
 .portfolio-bottom__line {
     margin-top: 103px;
     margin-bottom: 90px;
     background: var(--link-color);
-opacity: 0.15;
+    opacity: 0.15;
 }
 .portfolio__cta{
     margin-bottom: 50px;
+}
+
+/* Portfolio-detail */
+.detail {
+    margin-top: 35px;
+    margin-bottom: 115px;
+}
+.detail__img {
+    width: 1110px;
+    height: 500px;
+    object-fit: cover;
+}
+
+/* detail-main */
+.detail-main {
+    
+}
+.detail-main__wrapper {
+    display: flex;
+    margin-bottom: 64px;
+}
+.detail-main__left {
+    max-width: 350px;
+    width: 100%;
+    margin-right: 125px;
+}
+.detail-main-left__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.detail-main-top__line {
+    margin-bottom: 48px;
+    background-color: var(--link-color);
+    opacity: 0.15;
+}
+.detail-main__theme {
+    margin: 0;
+    margin-bottom: 29px;
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.35px;
+    color: var(--link-color);
+}
+.detail-main{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.detail-main__text {
+    margin: 0;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: var(--link-color);
+    opacity: 0.8;
+    margin-bottom: 23px;
+}
+.green{
+    margin-bottom: 16px;
+    color: var(--green-color);
+}
+.bottom-green{
+    margin-bottom: 32px;
+    color: var(--green-color);
+}
+.detail-main-bottom__line {
+    opacity: 0.15;
+    margin-top: 48px;
+}
+.detail-main-right {
+    max-width: 635px;
+    width: 100%;
+}
+.detail-main-right__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.detail-main-right__item {
+    display: flex;
+    flex-direction: column;
+}
+.detail-main-right__text{
+    margin: 0;
+    margin-bottom: 40px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: var(--link-color);
+    opacity: 0.8;
+}
+.detail-main-right__theme {
+    margin: 0;
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.28px;
+    color: var(--link-color);
+    margin-bottom: 28px;
+}
+.detail-main-right__item:last-child{
+    margin-top: 32px;
+}
+
+/* My-projects */
+.my-projects {
+    padding-bottom: 115px;
+}
+.my-projects__wrapper {
+    display: flex;
+    justify-content: space-between;
+    border-top:1px solid rgba(51, 50, 61, 0.15);
+    border-bottom:1px solid rgba(51, 50, 61, 0.15);
+}
+.my-projects__left {
+    display: flex;
+    align-items: center;
+}
+.my-projects__name {
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.my-projects__item {
+    font-family: 'Ibarra Real Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 36px;
+letter-spacing: -0.28px;
+color: var(--link-color);
+text-decoration: none;
+}
+.my-projects__item:hover{
+    color: var(--green-color);
+}
+.my-projects__previous:hover{
+    color: var(--green-color);
+}
+.my-projects__next:hover{
+    color: var(--green-color);
+}
+.my-projects__previous {
+    font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+text-align: right;
+color: var(--link-color);
+opacity: 0.5;
+text-decoration: none;
+}
+.my-projects__right {
+    display: flex;
+    align-items: center;
+    border-left:1px solid rgba(51, 50, 61, 0.15);
+}
+.left{
+    margin-left: 345px;
+}
+.my-projects__next {
+     font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: right;
+    color: var(--link-color);
+    opacity: 0.5;
+    text-decoration: none;
+}
+.to-left{
+    margin-right: 32px;
+}
+.to-right{
+margin-left: 32px;
 }
 
 /*for retina*/
