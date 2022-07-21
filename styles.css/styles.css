@@ -653,15 +653,17 @@ img{
     font-size: 13px;
     line-height: 30px;
     color: var(--link-color);
-    opacity: 0.4;
     margin-bottom: 24px;
+}
+.form-input:focus{
+    outline: none;
 }
 .textarea-styles{
     background-color: rgba(151, 151, 151, 0.5);
     border: none; 
     padding: 27px 500px 57px 16px;
     margin-bottom: 24px;
-    opacity: 0.4;
+    opacity: 0.8;
 }
 .form__contact {
     display: flex;
